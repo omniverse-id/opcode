@@ -102,10 +102,9 @@ export default function Home() {
         </div>
       </div>
 
- <div className="container mx-auto pb-16 text-center font-mono">
-        Made by{" "}
-        **REXPro Inc**
-      </div>
+      <div className="container mx-auto pb-16 text-center font-mono">
+        REXPro Inc
+      </div>
     </main>
   );
 }
