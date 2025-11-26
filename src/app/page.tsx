@@ -59,18 +59,18 @@ const popularRepos = [
   },
 ];
 
-const asciiArtTitle = `                                                  _____ 
- _____                       _        _ _ _     _|___  |
-|     |___ ___ ___ ___ ___ _| |___   | | | |___| |_|  _|
-|  |  | . | -_|   |  _| . | . | -_|  | | | | -_| . |_|  
-|_____|  _|___|_|_|___|___|___|___|  |_____|___|___|_|  
-      |_|                                               `;
+const asciiArtTitle = ` ██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ███████╗    ██╗    ██╗███████╗██████╗ 
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝██╔═══██╗██╔══██╗██╔════╝    ██║    ██║██╔════╝██╔══██╗
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║██║     ██║   ██║██║  ██║█████╗█████╗██║ █╗ ██║█████╗  ██████╔╝
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║██║     ██║   ██║██║  ██║██╔══╝╚════╝██║███╗██║██╔══╝  ██╔══██╗
+╚██████╔╝██║     ███████╗██║ ╚████║╚██████╗╚██████╔╝██████╔╝███████╗    ╚███╔███╔╝███████╗██████╔╝
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝     ╚══╝╚══╝ ╚══════╝╚═════╝ `;
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-900 text-white">
       {/* Hero Section - Instructions */}
-      <div className="container mx-auto flex w-full items-center justify-center px-4 pt-8 text-[0.5em] md:justify-start md:pt-16 md:text-base">
+      <div className="container mx-auto flex w-full items-center justify-center px-4 pt-8 text-[0.4em] md:justify-start md:pt-16 md:text-sm">
         <pre className="">{asciiArtTitle}</pre>
       </div>
 
@@ -102,22 +102,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container mx-auto pb-16 text-center font-mono">
-        Made by{" "}
-        <a
-          href="https://x.com/dotkrish"
-          className="underline hover:underline-offset-2"
-        >
-          @dotkrish
-        </a>{" "}
-        {"//"}{" "}
-        <a
-          href="https://krish.gg"
-          className="underline hover:underline-offset-2"
-        >
-          krish.gg
-        </a>
-      </div>
+ <div className="container mx-auto pb-16 text-center font-mono">
+        Made by{" "}
+        **REXPro Inc**
+      </div>
     </main>
   );
 }
